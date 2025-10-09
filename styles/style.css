@@ -131,7 +131,7 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
- 
+  margin-bottom: 5px;
 }
 
 .title {
@@ -171,7 +171,7 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
-  line-height: 100%;
+  line-height: 16.2px;
 }
 
 .content__video-card-description:hover {
@@ -233,7 +233,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-   outline-offset: 2px;
+  outline-offset: 2px;
 }
 
 .search-form__pseudo-checkbox {
@@ -264,8 +264,8 @@ ol {
   outline: 2px solid #fff;
 }
 
-.search-form__label:hover .search-form__label-text { 
-  text-decoration: underline; 
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
 }
 
 /* 4 Шаг  */
